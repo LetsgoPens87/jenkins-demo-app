@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello from Jenkins CI/CD!, This is Dan Hricko! Can you hear me now'
+    return 'Hello from Jenkins CI/CD!, This is Dan Hricko! Can you hear me now. updated changes'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
